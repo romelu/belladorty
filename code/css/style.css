@@ -39,7 +39,7 @@ header nav ul li {
 header nav ul li a {
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
-  color: #111;
+  color: #111111;
   text-transform: uppercase;
 }
 
@@ -85,10 +85,10 @@ header nav ul li a:hover {
   font-size: 60px;
   font-weight: 900;
   line-height: 100px;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 2px 2px 8px #111;
+  text-shadow: 2px 2px 8px #111111;
 }
 
 .bella-index-banner h1 {
@@ -97,10 +97,10 @@ header nav ul li a:hover {
   font-weight: 100;
   font-style: italic;
   line-height: 40px;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 2px 2px 8px #111;
+  text-shadow: 2px 2px 8px #111111;
 }
 
 .bella-index-links div {
@@ -115,7 +115,7 @@ header nav ul li a:hover {
   font-size: 28px;
   font-weight: 600;
   line-height: 100px;
-  color: #111;
+  color: #111111;
   text-transform: uppercase;
   text-align: center;
 }
@@ -163,7 +163,7 @@ footer {
   width: calc(100% - 80px);
   padding: 40px 40px;
   margin-top: 16px;
-  background-color: #111;
+  background-color: #111111;
   overflow: hidden;
 }
 
@@ -180,7 +180,7 @@ footer ul li {
 footer ul li a {
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #ffffff;
   line-height: 28px;
 }
 
@@ -212,7 +212,7 @@ footer ul li a:hover {
   footer ul li p {
     font-family: 'Catamaran', sans-serif;
     font-size: 22px;
-    color: #fff;
+    color: #ffffff;
     line-height: 28px;
     text-transform: uppercase;
   }
