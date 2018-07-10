@@ -68,7 +68,7 @@ header nav ul li a:hover {
 .bella-index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url("banner.jpg");
+  background-image: url("../image/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
