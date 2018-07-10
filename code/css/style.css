@@ -43,6 +43,10 @@ header nav ul li a {
   text-transform: uppercase;
 }
 
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 1000px) {
   header .bella-brand {
     margin: 8px 0;
@@ -178,6 +182,10 @@ footer ul li a {
   font-size: 16px;
   color: #fff;
   line-height: 28px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
 }
 
 .bella-footer-links-news {
