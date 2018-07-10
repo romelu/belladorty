@@ -116,6 +116,10 @@ header nav ul li a {
   text-align: center;
 }
 
+.bella-index-links div h3:hover {
+  background-color: #ffe1e6;
+}
+
 @media only screen and (min-width: 1000px) {
   .bella-wrapper {
     width: 1000px;
@@ -178,6 +182,16 @@ footer ul li a {
 
 .bella-footer-links-novinky {
   display: none;
+}
+
+.bella-footer-social-media {
+  width: 48px;
+  float: right;
+}
+
+.bella-footer-social-media img {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 1000px) {
