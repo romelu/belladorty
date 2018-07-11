@@ -18,22 +18,37 @@ header {
 }
 
 header .bella-brand {
+  margin: 8px 0 0 0;
+  padding: 0 20px 0 20px;
+  float: left;
+}
+
+header nav .bella-nav-sandwich {
   display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 5px 0;
+  height: 32px;
+  width: 100%;
+  background: url("../image/sandwich.png") no-repeat 95% center;
+  cursor: pointer;
+  line height: 32px;
+  margin: 34px 0;
 }
 
 header nav ul {
-  display: table;
-  margin: 0 auto;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 0;
+}
+
+header nav ul.open {
+  height: auto;
 }
 
 header nav ul li {
-  display: inline-block;
-  float: left;
+  float: none;
   list-style: none;
   padding: 0 15px;
+  line-height: 40px;
 }
 
 header nav ul li a {
@@ -41,6 +56,8 @@ header nav ul li a {
   font-size: 16px;
   color: #111111;
   text-transform: uppercase;
+  border-bottom: 1px solid #bababa;
+  display: block;
 }
 
 header nav ul li a:hover {
@@ -48,18 +65,24 @@ header nav ul li a:hover {
 }
 
 @media only screen and (min-width: 1000px) {
-  header .bella-brand {
-    margin: 8px 0;
-    text-align: left;
-    padding: 0 20px 0 20px;
-    float: left;
+  header nav .bella-nav-sandwich {
+    display: none;
   }
   header nav ul {
-    margin: 20px 0 0 20px;
+    display: table;
     float: left;
+    background-color: none;
+    width: auto;
+    margin: 20px 0 0 20px;
+  }
+  header nav ul li {
+    display: block;
+    float: left;
+    padding: 0 15px;
   }
   header nav ul li a {
     line-height: 60px;
+    border-bottom: none;
   }
 }
 
@@ -107,7 +130,7 @@ header nav ul li a:hover {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
   height: 100px;
-  background-color: #f2f2f2;
+  background-color: #ededed;
 }
 
 .bella-index-links div h3 {
@@ -143,7 +166,6 @@ header nav ul li a:hover {
   .bella-index-links div {
     margin: 20px 10px 0;
     height: 230px;
-    background-color: #f2f2f2;
     float: left;
   }
   .bella-box-link-square {
@@ -188,10 +210,6 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
-.bella-footer-links-news {
-  display: none;
-}
-
 .bella-footer-social-media {
   width: 32px;
   float: right;
@@ -203,9 +221,6 @@ footer ul li a:hover {
 }
 
 @media only screen and (min-width: 1000px) {
-  .bella-footer-links-news {
-    display: block;
-  }
   footer ul {
     padding-right: 30px;
   }
