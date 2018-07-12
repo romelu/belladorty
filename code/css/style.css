@@ -24,13 +24,13 @@ header .bella-brand {
 }
 
 header nav .bella-nav-sandwich {
-  display: block;
+  display: inline-block;
+  float: right;
   height: 32px;
-  width: 100%;
-  background: url("../image/sandwich.png") no-repeat 95% center;
+  width: 32px;
   cursor: pointer;
   line height: 32px;
-  margin: 34px 0;
+  margin: 34px 20px;
 }
 
 header nav ul {
