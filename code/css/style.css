@@ -60,6 +60,19 @@ header nav ul li a {
   display: block;
 }
 
+header nav ul li a:hover {
+  font-size: 20px;
+}
+
+header nav ul li a::after {
+  display: block;
+  content: attr(data-text);
+  font-size: 20px;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 1000px) {
   header nav .bella-nav-sandwich {
     display: none;
@@ -79,9 +92,7 @@ header nav ul li a {
   header nav ul li a {
     line-height: 60px;
     border-bottom: none;
-  }
-  header nav ul li a:hover {
-    text-decoration: underline;
+    text-align: center;
   }
 }
 
