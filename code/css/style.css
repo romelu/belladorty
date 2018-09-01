@@ -115,9 +115,9 @@ header nav ul li a::after {
 
 .bella-index-banner h2 {
   font-family: 'Catamaran', sans-serif;
-  font-size: 60px;
+  font-size: 44px;
   font-weight: 900;
-  line-height: 100px;
+  line-height: 80px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -126,7 +126,7 @@ header nav ul li a::after {
 
 .bella-index-banner h1 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 28px;
+  font-size: 25px;
   font-style: italic;
   font-weight: 600;
   line-height: 40px;
@@ -165,10 +165,16 @@ header nav ul li a::after {
   .bella-index-banner {
     height: 450px;
   }
+  .bella-index-banner h2 {
+    font-size: 60px;
+    line-height: 100px;
+  }
   .bella-index-banner h1 {
     display: block;
     width: 650px;
     margin: 0 auto;
+    font-size: 28px;
+    line-height: 50px;
   }
   .bella-index-links {
     overflow: hidden;
